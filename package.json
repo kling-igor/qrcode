@@ -1,10 +1,11 @@
 {
-  "name": "react-boilerplate",
-  "version": "0.0.2",
-  "description": "React Webpack boilerplate",
+  "name": "qrcode",
+  "version": "0.0.1",
+  "description": "QR Code view for Vision IDE",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --env.dev --hot"
+    "start": "webpack-dev-server --mode development --env.dev --hot",
+    "build": "webpack --mode production --env.prod"
   },
   "keywords": [],
   "author": "'Igor Kling' <\"klingiv@altarix.ru\">",
@@ -12,14 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "@blueprintjs/core": "^3.15.1",
-    "@blueprintjs/icons": "^3.8.0",
-    "@blueprintjs/select": "^3.8.0",
     "mobx": "^5.9.0",
     "mobx-react": "^5.4.3",
+    "qrcode.react": "^0.9.3",
     "react": "16.8.6",
     "react-dom": "^16.8.6",
-    "styled-components": "^4.1.3",
-    "uuid": "^3.3.2"
+    "styled-components": "^4.1.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",

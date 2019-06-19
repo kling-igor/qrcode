@@ -12,10 +12,6 @@ module.exports = env => ({
 
   watch: false,
 
-  node: {
-    fs: 'empty'
-  },
-
   watchOptions: {
     aggregateTimeout: 100
   },
